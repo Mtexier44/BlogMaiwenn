@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+body {
+  background-color: #c3416e;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.contact-button {
+  background: #fff;
+  color: #c3416e;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.title {
+  text-align: center;
+  margin-top: 1rem;
+}
+.title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+nav button {
+  background: white;
+  color: #c3416e;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.info-box {
+  background: white;
+  color: #c3416e;
+  border-radius: 20px;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.info-box .image {
+  flex: 1;
+  background: linear-gradient(to top, #a3d977, #d5f4ff);
+  height: 200px;
+  border-radius: 20px;
+}
+.info-box .details {
+  flex: 2;
+}
+.info-box {
+  background: white;
+  color: #c3416e;
+  border-radius: 20px;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.bloc-button {
+  background-color: #c3416e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.qr-code {
+  margin-top: 1rem;
+}
+footer {
+  background-color: #c3416e;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+footer .left,
+footer .right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
