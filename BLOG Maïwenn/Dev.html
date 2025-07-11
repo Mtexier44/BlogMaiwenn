@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maïwenn Texier</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="Home.html"><img src="assets/img/logo.png" alt="Logo"></a>
+    <a href="Contact.html" class="contact-button">Contact</a>
+  </header>
+
+  <div class="title">
+    <h1>MAÏWENN</h1>
+    <h2>TEXIER</h2>
+  </div>
+
+  <nav>
+    <a href="Compétences.html"><button>Compétences</button></a>
+    <a href="Etudes.html"><button>Études</button></a>
+    <a href="Experiences.html"><button>Expériences</button></a>
+    <a href="Projets.html"><button>Projets</button></a>
+  </nav>
+
+
+<div class="popup-container">
+  <button class="popup-toggle-button">Chez tonton Sergio</button>
+  <div class="popup-content-inside">
+  <h1>💻 Projet JS : Chez Tonton Sergio</h1>
+        <p>Temps de réalisation : <em>20h</em></p>
+    
+
+      <h3>Site vitrine non marchand – Réservation de restaurant (pizzeria)</h3>
+      <p><strong>Travail en groupe de 3 personnes</strong></p>
+
+      <p><strong>"Chez Tonton Sergio"</strong> est le tout premier projet de groupe réalisé dans le cadre de ma formation en développement web. L’objectif était de créer un <strong>site vitrine non marchand</strong> pour une activité fictive, en y intégrant les bases de la <strong>gestion de bases de données</strong> : stockage d’informations, affichage dynamique, authentification, etc.</p>
+
+      <p>Nous avons choisi le thème d’un <strong>restaurant italien</strong>, plus précisément une pizzeria. Le projet s’articulait autour de deux bases de données distinctes :</p>
+      <ul>
+        <li>Une pour la <strong>gestion des réservations</strong>.</li>
+        <li>Une autre pour la <strong>gestion des utilisateurs</strong> (création de compte, profil, etc.).</li>
+      </ul>
+
+      <p><strong>Technologies utilisées :</strong></p>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Manipulation d’un SGBD</li>
+        <li>Travail en équipe et organisation du code</li>
+        <li>Gestion du temps et des tâches</li>
+      </ul>
+
+      <p><strong>Fonctionnalités développées :</strong></p>
+      <ul>
+        <li>📅 Formulaire de réservation avec planning interactif</li>
+        <li>⏰ Sélection dynamique des créneaux par date et heure</li>
+        <li>🔒 Espace membre pour l’équipe du restaurant :
+          <ul>
+            <li>Accès aux données clients</li>
+            <li>Réservations</li>
+            <li>Partenaires, fournisseurs</li>
+            <li>Comptabilité simplifiée</li>
+          </ul>
+        </li>
+        <li>👤 Système d’authentification :
+          <ul>
+            <li>Création de compte</li>
+            <li>Connexion sécurisée</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><strong>Axes d’amélioration identifiés :</strong></p>
+      <ul>
+        <li>📁 Améliorer l’arborescence du projet</li>
+        <li>❌ Rendre le système de réservation fonctionnel</li>
+        <li>🎨 Revoir le design et le CSS pour plus d’harmonie</li>
+        <li>🌐 Héberger le site via un véritable serveur</li>
+        <li>🗃️ Remplacer la base de données en JavaScript par une solution SQL ou PHP plus adaptée</li>
+      </ul>
+
+      <p><strong>Bilan</strong><br>
+      Ce projet a été une première approche concrète du développement web. Il nous a permis d’appréhender la logique de travail en équipe, la création de fonctionnalités dynamiques et la gestion de données. Même si de nombreuses améliorations restent à faire, il a jeté des bases solides pour mes projets suivants.</p>
+    </div>
+  </div>
+</div>
+
+<div class="popup-container">
+  <button class="popup-toggle-button">Forum</button>
+  <div class="popup-content-inside">
+     <h1>🎓 Projet de Forum Web – Licence Informatique 2023-2024</h1>
+
+  <h2>Contexte du projet</h2>
+  <p>
+    Dans le cadre du projet de fin d’année du bachelor informatique, nous devions réaliser un projet réunissant l’ensemble des compétences acquises durant la première année.
+    L’objectif est de concevoir et développer un <strong>forum web</strong> complet, en appliquant les bonnes pratiques en matière de développement logiciel, de base de données, de sécurité et de gestion de projet.
+  </p>
+
+  <h2>Présentation du projet</h2>
+  <p>Le forum doit permettre :</p>
+  <ul>
+    <li>La communication entre utilisateurs (messages et commentaires)</li>
+    <li>L’association de catégories aux messages</li>
+    <li>Un système de likes / dislikes</li>
+    <li>Le filtrage des messages</li>
+  </ul>
+
+  <h2>Base de données – SQLite</h2>
+  <p>Les données seront stockées dans une base SQLite. Le projet doit contenir au minimum une requête <code>SELECT</code>, <code>CREATE</code> et <code>INSERT</code>.</p>
+  <p>Il est également demandé de concevoir un <strong>modèle entité-association</strong>.</p>
+
+  <h2>Authentification</h2>
+  <ul>
+    <li>Inscription avec e-mail, nom d’utilisateur et mot de passe</li>
+    <li>Rejet si l’e-mail est déjà utilisé</li>
+    <li>Le mot de passe doit être <strong>chiffré</strong> (bonus)</li>
+    <li>Utilisation de cookies pour gérer une session unique par utilisateur</li>
+    <li>Expiration de session définie par les étudiants</li>
+    <li>L’utilisation d’un UUID pour la session est un bonus</li>
+  </ul>
+
+  <h2>Communication</h2>
+  <ul>
+    <li>Seuls les utilisateurs enregistrés peuvent créer des messages/commentaires</li>
+    <li>Les messages peuvent être associés à des catégories</li>
+    <li>Les visiteurs non connectés peuvent uniquement consulter le contenu</li>
+  </ul>
+
+  <h2> Likes / Dislikes</h2>
+  <ul>
+    <li>Fonction réservée aux utilisateurs connectés</li>
+    <li>Le nombre de likes/dislikes est visible par tous</li>
+  </ul>
+
+  <h2>Filtrage</h2>
+  <p>Les messages doivent pouvoir être filtrés par :</p>
+  <ul>
+    <li>Catégories</li>
+    <li>Messages créés par l’utilisateur connecté</li>
+    <li>Messages likés par l’utilisateur connecté</li>
+  </ul>
+  <p><em>Les deux derniers filtres sont réservés aux utilisateurs connectés.</em></p>
+
+  <h2>Contraintes techniques</h2>
+  <ul>
+    <li>Utilisation obligatoire de SQLite</li>
+    <li>Gestion des erreurs et des statuts HTTP</li>
+    <li>Bonne structuration du code</li>
+    <li>Tests unitaires recommandés</li>
+  </ul>
+
+  <h2>Packages autorisés</h2>
+  <ul>
+    <li>Packages standards de Go</li>
+    <li><code>sqlite3</code></li>
+    <li><code>bcrypt</code></li>
+    <li><code>uuid</code></li>
+  </ul>
+  <p><strong>Interdiction d’utiliser des frameworks frontend (React, Vue, etc.)</strong></p>
+
+  <h2>Objectifs pédagogiques</h2>
+  <p>Ce projet permettra de renforcer les compétences suivantes :</p>
+  <ul>
+    <li>Notions web : HTML, HTTP, sessions, cookies</li>
+    <li>Langage SQL</li>
+    <li>Manipulation de base de données</li>
+    <li>Notions de chiffrement</li>
+  </ul>
+  </div>
+</div>
+
+  <div class="popup-container">
+  <button class="popup-toggle-button">Cocktails</button>
+  <div class="popup-content-inside">
+    <div class="carousel">
+  <button class="prev">&#10094;</button>
+    < <div class="carousel-images">
+    <img src="assets/img/cocktails/Drink Lab/1.png" class="active" alt="Image 1">
+    <img src="assets/img/cocktails/Drink Lab/2.png" alt="Image 2">
+    <img src="assets/img/cocktails/Drink Lab/3.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/4.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/5.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/6.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/7.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab.mp4" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/9.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/10.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/11.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/12.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/13.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/14.png" alt="Image 3">
+    <img src="assets/img/cocktails/Drink Lab/15.png" alt="Image 3">
+  </div>
+  <button class="next">&#10095;</button>
+</div>
+  </div>
+</div>
+
+<div class="popup-container">
+  <button class="popup-toggle-button">Quête Tache</button>
+  <div class="popup-content-inside">
+    <h3>Titre info</h3>
+    <p>Contenu de l'info-box contextuelle affichée au survol.</p>
+  </div>
+</div>
+
+<div class="popup-container">
+  <button class="popup-toggle-button">Les Géro'potes</button>
+  <div class="popup-content-inside">
+    <h3>Titre info</h3>
+    <p>Contenu de l'info-box contextuelle affichée au survol.</p>
+  </div>
+</div>
+
+  <footer>
+    <div class="left">
+      <img src="https://img.icons8.com/ios-filled/20/ffffff/phone.png"/>
+      <a href="tel:0783181148">07.83.18.11.48</a>
+    </div>
+    <div class="right">
+      <img src="https://img.icons8.com/ios-filled/20/ffffff/new-post.png"/>
+      <a href="mailto:maiwenn.texier44@gmail.com">maiwenn.texier44@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
