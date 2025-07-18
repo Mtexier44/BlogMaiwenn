@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maïwenn Texier</title>
+  <title>Contact - Maïwenn Texier</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
     <h2>TEXIER</h2>
   </div>
 
-  <nav>
+   <nav>
     <a href="Compétences.html"><button>Compétences</button></a>
     <a href="Etudes.html"><button>Études</button></a>
     <a href="Experiences.html"><button>Expériences</button></a>
@@ -25,32 +25,30 @@
   </nav>
 
   <section class="info-box">
-  <div class="details">
-    <h3>Formulaire de contact</h3>
-    <form action="mailto:maiwenn.texier44@gmail.com" method="POST" enctype="text/plain">
-      <div class="contact-form">
-  <form action="mailto:maiwenn.texier44@gmail.com" method="POST" enctype="text/plain">
-    <label for="email">Votre adresse mail :</label>
-    <input type="email" id="email" name="Adresse mail" required>
+    <div class="details">
+      <h3>Formulaire de contact</h3>
+      <form action="https://formsubmit.co/maiwenn.texier44@gmail.com" method="POST">
+        
+        <input type="hidden" name="_captcha" value="false">
+  
+        <input type="hidden" name="_next" value="merci.html">
 
-    <label for="phone">Votre numéro de téléphone :</label>
-    <input type="tel" id="phone" name="Numéro de téléphone" required>
+        <label for="email">Votre adresse mail :</label>
+        <input type="email" id="email" name="email" required>
 
-    <label for="name">Votre nom et prénom :</label>
-    <input type="text" id="name" name="Nom et prénom" required>
+        <label for="phone">Votre numéro de téléphone :</label>
+        <input type="tel" id="phone" name="phone" required>
 
-    <label for="message">Votre message :</label>
-    <textarea id="message" name="Message" required></textarea>
+        <label for="name">Votre nom et prénom :</label>
+        <input type="text" id="name" name="name" required>
 
-    <button type="submit" class="bloc-button">Envoyer</button>
-  </form>
-</div>
-    </form>
-  </div>
-</section>
+        <label for="message">Votre message :</label>
+        <textarea id="message" name="message" required></textarea>
 
-
-
+        <button type="submit" class="bloc-button">Envoyer</button>
+      </form>
+    </div>
+  </section>
 
   <section class="info-box">
     <div class="image"></div>
